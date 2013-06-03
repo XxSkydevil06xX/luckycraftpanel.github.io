@@ -5,6 +5,17 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
 	<title>CraftPanel</title>
+	<style>
+		.red {
+			color: red;
+		}
+		.green {
+			color: green;
+		}
+		.yellow {
+			color: yellow;
+		}
+	</style>
 </head>
 <body>
 	<div class="navbar navbar-fixed-bottom">
@@ -16,6 +27,23 @@
 				<li><a href="#">Commands</a></li>
 				<li><a href="#">Plugins</a></li>
 			</ul>
+		</div>
+	</div>
+	<div class="container" style="padding:40px;">
+		<div class="row-fluid">
+			<div class="span4">
+				<h1>Server Status</h1>
+				<img src="http://placehold.it/200x200" alt=".">
+				<p>
+					<ol>
+						<li>GamemodeOne - <span class="red">Offline</span></li>
+						<li>VanillaZero - <span class="green">Online</span></li>
+						<li>AdventureTwo - <span class="yellow">Connection Issues</span></li>
+					</ol>
+				</p>
+			</div>
+			<div class="span4"></div>
+			<div class="span4"></div>
 		</div>
 	</div>
 </body>
