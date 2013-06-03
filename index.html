@@ -5,23 +5,12 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
 	<title>CraftPanel</title>
-	<style>
-		.red {
-			color: red;
-		}
-		.green {
-			color: green;
-		}
-		.yellow {
-			color: yellow;
-		}
-	</style>
 </head>
 <body>
 	<div class="container" style="padding:40px;">
 		<div class="row-fluid">
 			<div class="span3"><h1>CraftPanel</h1></div>
-			<div class="span9">
+			<div class="span9 pull-right">
 				<ul class="nav nav-pills">
 					<li class="active">
 				    	<a href="#">Dashboard</a>
@@ -32,20 +21,47 @@
 				</ul>
 			</div>
 		</div>
+		<hr />
 		<div class="row-fluid">
 			<div class="span4">
-				<h1>Server Status</h1>
-				<img src="http://placehold.it/200x200" alt=".">
+				<h3>Server Status</h3>
 				<p>
-					<ol>
-						<li>GamemodeOne - <span class="red">Offline</span></li>
-						<li>VanillaZero - <span class="green">Online</span></li>
-						<li>AdventureTwo - <span class="yellow">Connection Issues</span></li>
-					</ol>
+					<ul class="nav nav-tabs nav-stacked">
+						<li><a href="#">GamemodeOne - <span class="red">Offline</span></a></li>
+						<li><a href="#">VanillaZero - <span class="green">Online</span></a></li>
+						<li><a href="#">AdventureTwo - <span class="yellow">Connection Issues</span></a></li>
+					</ul>
 				</p>
 			</div>
-			<div class="span4"></div>
-			<div class="span4"></div>
+			<div class="span4">
+				<h3>Account Details</h3>
+				<p>
+					<ul class="nav nav-tabs nav-stacked">
+						<li><a href="#">Username: Spidir</a></li>
+						<li><a href="#">Password: ********</a></li>
+						<li><a href="#">Package: ServerTwo 2048</a></li>
+					</ul>
+				</p>
+			</div>
+			<div class="span4">
+				<h3>Players</h3>
+				<div class="row-fluid">
+					<div class="span6">
+						<ul class="nav nav-tabs nav-stacked">
+							<li><a href="#">luuk2305</a></li>
+							<li><a href="#">jenson200</a></li>
+							<li><a href="#">bram1605</a></li>
+						</ul>
+					</div>
+					<div class="span6">
+						<ul class="nav nav-tabs nav-stacked">
+							<li><a href="#">Inflatablegoo</a></li>
+							<li><a href="#">ildabears</a></li>
+							<li><a href="#">masonsbro</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
